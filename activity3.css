@@ -1,0 +1,50 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(204, 180, 226);
+        }
+        form{
+            background-color: rgb(236, 146, 206);
+            padding: 10px;
+            width: 100%;
+            max-width: 650px;
+            border-radius: 15px;
+        }
+
+        .form-box {
+            width: 600px;
+            margin: 30px auto;
+            
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            margin: 10px 0;
+
+        }
+
+        input, select, textarea {
+            padding: 8px;
+            width: 150px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 8px 20px;
+            background-color: rgb(248, 123, 143);
+        }

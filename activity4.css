@@ -1,0 +1,77 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(247, 138, 169);
+            margin: 0;
+            padding: 20px;
+        }
+        nav {
+            background-color: rgb(142, 236, 205);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:25px 10px ;
+            box-shadow: 0 2px 8px colorsrgb rgb(88, 19, 19);
+        }
+        nav a{ 
+            text-decoration: none;
+            color: rgb(129, 26, 31);
+            padding: 15px 25px;
+            margin: 0 3px;
+            font-size: 18px;
+            transition: 0.3s;
+
+        }
+        
+        nav a:hover,
+        nav a.active {
+            background: #eba4a4;
+            color:white;
+        }
+
+         form{
+            text-align: center;
+            background-color: #f3b1b1;
+         }
+
+         .form-box {
+            width: 600px;
+            margin: 30px a;
+         }
+         h1 {
+            text-align: center;
+         }
+         label {
+            display: inline-block;
+            width: 150px;
+            margin: 10px 0;
+
+         }
+         input, select, textarea{
+            padding: 2px;
+            width: 200px;
+            box-sizing: border-box;
+         }
+         input[type="radio"],
+         input[type="checkbox"]
+         {
+            width: auto;
+         }
+         textarea {
+            height: 150px;
+         }
+         button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #926060;
+         }
+        table,th,td {
+         border-collapse: collapse;
+         border: 1px solid black;
+        }
+        
+  
+        button {
+            background-color: rgb(245, 215, 179);
+        }
+        

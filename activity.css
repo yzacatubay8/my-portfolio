@@ -1,0 +1,49 @@
+body{
+         fort-family: Arial, sans-serif;
+            background-color: rgb(192, 140, 241);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .resume {
+            width: 800px;
+            max-width: 100%;
+            background-color: antiquewhite;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: left;
+            border-left: 2px solid;
+            padding-left: 15px;
+        }
+
+        .header h1 {
+            margin: 0%;
+            font-size: 32px;
+        }
+
+        .header p {
+            margin: 8px 0;
+        }
+
+        h2 {
+            border-left: 1px solid;
+            padding-left: 5px;
+            margin: left 25px;
+        }
+
+        .section {
+            margin-left: 20px;
+        }
+        
+        
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .info {
+            line-height: 1.6;
+        }
